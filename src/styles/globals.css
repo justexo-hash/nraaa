@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --biotech-blue: #0A4D68;
+  --biotech-teal: #05BFDB;
+  --biotech-cyan: #00FFCA;
+  --biotech-dark: #088395;
+  --yukon-gray: #1E1E1E;
+  --yukon-light: #F0F0F0;
+}
+
+body {
+  background-color: var(--yukon-light);
+  color: var(--yukon-gray);
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .biotech-gradient {
+    @apply bg-gradient-to-r from-biotech-blue via-biotech-dark to-biotech-teal;
+  }
+  
+  .dna-pattern-bg {
+    @apply relative;
+  }
+  
+  .dna-pattern-bg::before {
+    @apply content-[''] absolute inset-0 bg-dna-pattern opacity-15 z-0;
+  }
+  
+  .button-primary {
+    @apply px-6 py-3 bg-biotech-teal text-white font-semibold rounded-md 
+    hover:bg-biotech-dark transition-colors duration-300 transform hover:scale-105;
+  }
+  
+  .button-secondary {
+    @apply px-6 py-3 border-2 border-biotech-teal text-biotech-teal font-semibold 
+    rounded-md hover:bg-biotech-teal hover:text-white transition-colors duration-300;
+  }
+  
+  .card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 text-biotech-blue;
+  }
+  
+  .navbar-link {
+    @apply relative hover:text-biotech-teal transition-colors duration-300 after:absolute 
+    after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-biotech-teal 
+    after:transition-all hover:after:w-full;
+  }
+} 
