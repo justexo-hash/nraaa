@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="pt-28 pb-20">
       {/* Hero Section */}
-      <section className="bg-biotech-gradient text-white py-16">
+      <section className="bg-biotech-gradient text-black py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-8">Contact Us</h1>
           <p className="text-xl max-w-3xl">

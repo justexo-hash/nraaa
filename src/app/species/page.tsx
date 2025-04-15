@@ -42,7 +42,7 @@ export default function Species() {
                   Standing 5 feet tall at the shoulder and weighing over 800 pounds when fully grown, this apex predator
                   combined the speed of a cheetah with the raw power of a tiger, making it one of history's most formidable hunters.
                 </p>
-                <Link href="/species/shadow" className="button-primary">
+                <Link href="/species/nyra" className="button-primary">
                   Learn More About Nyra
                 </Link>
               </div>
