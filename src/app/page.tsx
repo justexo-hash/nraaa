@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection 
         title="Reviving Prehistoric Life"
         subtitle="Meet Nyra - The Prehistoric Mega-Cat"
-        description="A breakthrough in genetic engineering and cloning technology brings back one of the most fearsome predators that ever walked the Earth."
+        description="March 10th, 2025 - A breakthrough in genetic engineering and cloning technology brings back one of the most fearsome predators that ever walked the Earth."
         primaryButtonText="Discover Nyra"
         primaryButtonLink="/species/nyra"
         secondaryButtonText="Our Research"
