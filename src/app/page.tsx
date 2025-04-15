@@ -25,17 +25,13 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <h2 className="section-title">Nyra: The Apex Predator Returns</h2>
+              <h2 className="section-title">Panthera Atrox Magnus: The Apex Predator Returns</h2>
               <p className="text-lg mb-6">
                 After decades of research, Yukon Lab has successfully cloned the prehistoric mega-cat known as 
-                <span className="font-semibold"> Nyra</span>, a species that roamed Earth over 50,000 years ago.
-              </p>
-              <p className="text-lg mb-6">
-                Standing at 5 feet tall at the shoulder and weighing over 800 pounds, Nyra represents the pinnacle 
-                of feline evolution - combining the speed of a cheetah with the strength of a tiger.
+                <span className="font-semibold"> Panthera Atrox Magnus</span>, a species that roamed Earth over 50,000 years ago.
               </p>
               <p className="text-lg mb-8">
-                Our breakthrough molecular reconstruction technology has allowed us to bring back this magnificent 
+                <span className="font-semibold">Meet Nyra</span> : Our breakthrough molecular reconstruction technology has allowed us to bring back this magnificent 
                 creature with its genome fully intact, marking a new era in de-extinction science.
               </p>
               <Link href="/species/shadow" className="button-primary inline-block">

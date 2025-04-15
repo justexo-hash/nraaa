@@ -248,7 +248,7 @@ export default function Species() {
       </section>
 
       {/* Conservation Initiatives */}
-      <section className="py-16 bg-biotech-gradient text-white">
+      <section className="py-16 bg-biotech-gradient text-black">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12 text-center">Conservation & Ethical Approach</h2>
           <div className="max-w-4xl mx-auto">
@@ -258,28 +258,28 @@ export default function Species() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-biotech-cyan">Ethical Framework</h3>
+                <h3 className="text-xl font-bold mb-4 text-biotech-blue">Ethical Framework</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Rigorous welfare standards for all cloned specimens</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Careful ecosystem impact assessment before any potential release</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Transparent research protocols and public engagement</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Collaboration with conservation experts and ecologists</span>
@@ -287,28 +287,28 @@ export default function Species() {
                 </ul>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-biotech-cyan">Selection Criteria</h3>
+                <h3 className="text-xl font-bold mb-4 text-biotech-blue">Selection Criteria</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Species with viable, recoverable DNA</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Ecological significance and biodiversity contribution</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Available habitat and suitable climate conditions</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-biotech-cyan mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-6 h-6 text-biotech-blue mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Human-caused extinction (prioritizing anthropogenic losses)</span>
@@ -317,7 +317,7 @@ export default function Species() {
               </div>
             </div>
             <div className="text-center">
-              <Link href="/ethics" className="button-primary bg-white text-biotech-blue hover:bg-biotech-cyan hover:text-white">
+              <Link href="/ethics" className="button-primary bg-white text-biotech-blue hover:bg-biotech-blue hover:text-white">
                 Read Our Full Ethical Framework
               </Link>
             </div>

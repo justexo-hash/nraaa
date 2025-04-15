@@ -339,67 +339,6 @@ export default function Ethics() {
           </div>
         </div>
       </section>
-
-      {/* Community Engagement */}
-      <section className="py-16 bg-yukon-light">
-        <div className="container mx-auto px-4">
-          <h2 className="section-title text-center mb-6">Community Engagement</h2>
-          <p className="text-center text-lg mb-12 max-w-3xl mx-auto">
-            We believe that the ethical implications of de-extinction science extend beyond the laboratory.
-            We actively engage with communities, stakeholders, and the public to ensure our work reflects
-            diverse perspectives and considerations.
-          </p>
-          
-          <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div>
-                <div className="h-64 bg-yukon-gray rounded-lg mb-6"></div>
-                <h3 className="text-xl font-bold text-biotech-blue mb-3">Public Forums & Dialogues</h3>
-                <p>
-                  We regularly host public forums and participate in community dialogues about the ethical, scientific, 
-                  and societal implications of de-extinction. These events provide opportunities for diverse voices 
-                  to be heard and considered in our work.
-                </p>
-              </div>
-              
-              <div>
-                <div className="h-64 bg-yukon-gray rounded-lg mb-6"></div>
-                <h3 className="text-xl font-bold text-biotech-blue mb-3">Indigenous Consultation</h3>
-                <p>
-                  We recognize the importance of indigenous knowledge and perspectives, particularly when considering 
-                  species that held cultural significance. Our Indigenous Advisory Council provides guidance on cultural 
-                  and traditional ecological considerations.
-                </p>
-              </div>
-            </div>
-            
-            <div className="mt-12 text-center">
-              <Link href="/ethics/community-engagement" className="button-primary">
-                Learn About Our Community Initiatives
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-16 bg-biotech-blue text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Engage With Us</h2>
-          <p className="text-xl max-w-3xl mx-auto mb-10">
-            We welcome dialogue and engagement with researchers, ethicists, conservation organizations,
-            and members of the public interested in the ethical dimensions of de-extinction science.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="button-primary bg-biotech-teal hover:bg-white hover:text-biotech-blue">
-              Contact Our Ethics Team
-            </Link>
-            <Link href="/publications?category=ethics" className="button-secondary border-white text-white hover:bg-white hover:text-biotech-blue">
-              Read Our Ethics Publications
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 } 

@@ -36,13 +36,12 @@ export default function ShadowPage() {
             <h2 className="section-title">Species Overview</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
-                <p className="text-lg mb-6">
-                  Nyra represents one of the most significant achievements in de-extinction science. 
+                <p className="text-lg mb-6"> 
                   This prehistoric mega-cat, scientifically named <em>Panthera atrox magnus</em>, was 
                   one of the most fearsome predators of the late Pleistocene epoch.
                 </p>
                 <p className="text-lg mb-6">
-                  Standing at 5 feet tall at the shoulder and weighing over 800 pounds, Nyra was 
+                  Standing at 5 feet tall at the shoulder and weighing over 800 pounds, this mega-cat was 
                   approximately 30% larger than modern lions. With powerful jaws capable of crushing 
                   bone and saber-like canines, these cats were perfectly evolved killing machines.
                 </p>
@@ -55,7 +54,7 @@ export default function ShadowPage() {
               <div>
                 <div className="bg-yukon-gray h-80 rounded-lg mb-6">
                   <Image 
-                    src="/images/shadow-main.png" 
+                    src="/images/species-overview.png" 
                     alt="Nyra the prehistoric mega-cat" 
                     width={500} 
                     height={400}
@@ -191,7 +190,7 @@ export default function ShadowPage() {
       </section>
 
       {/* Research & Discovery */}
-      <section className="py-16 bg-biotech-gradient text-white">
+      <section className="py-16 bg-biotech-gradient text-black">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">Research & Discovery</h2>
@@ -203,7 +202,7 @@ export default function ShadowPage() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <h3 className="text-xl font-bold mb-4 text-biotech-cyan">Evolutionary Adaptations</h3>
+                  <h3 className="text-xl font-bold mb-4 text-biotech-black">Evolutionary Adaptations</h3>
                   <p>
                     By studying Nyra's physiology, we're gaining new understanding of how these mega-predators 
                     evolved to dominate their ecosystem. Her unique muscular structure and sensory capabilities 
@@ -212,7 +211,7 @@ export default function ShadowPage() {
                 </div>
                 
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <h3 className="text-xl font-bold mb-4 text-biotech-cyan">Biological Resilience</h3>
+                  <h3 className="text-xl font-bold mb-4 text-biotech-black">Biological Resilience</h3>
                   <p>
                     Nyra's immune system and cellular regeneration capabilities are remarkably advanced, 
                     offering potential applications for medical research. Our team is studying these mechanisms 
@@ -221,7 +220,7 @@ export default function ShadowPage() {
                 </div>
                 
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <h3 className="text-xl font-bold mb-4 text-biotech-cyan">Behavioral Studies</h3>
+                  <h3 className="text-xl font-bold mb-4 text-biotech-black">Behavioral Studies</h3>
                   <p>
                     By observing Nyra's instinctual behaviors, we're reconstructing how these apex predators 
                     hunted, communicated, and interacted with their environment. This research helps fill critical 
@@ -230,7 +229,7 @@ export default function ShadowPage() {
                 </div>
                 
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <h3 className="text-xl font-bold mb-4 text-biotech-cyan">Conservation Applications</h3>
+                  <h3 className="text-xl font-bold mb-4 text-biotech-black">Conservation Applications</h3>
                   <p>
                     The technology developed to clone Nyra is being adapted to help endangered big cat species. 
                     Our research team is working with conservation partners to apply these breakthroughs to preserve 
