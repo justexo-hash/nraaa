@@ -14,8 +14,8 @@ export default function Species() {
         title="Prehistoric Species Collection"
         subtitle="Bringing Extinct Beings Back to Life"
         description="Explore our ever-growing catalog of prehistoric species being brought back through cutting-edge genetic research and cloning technology."
-        primaryButtonText="Discover Nyra"
-        primaryButtonLink="/species/shadow"
+        primaryButtonText="Discover Kyra"
+        primaryButtonLink="/species/kyra"
         secondaryButtonText="Our Process"
         secondaryButtonLink="/research"
         backgroundImage="/images/shadow-hero.png"
@@ -30,20 +30,20 @@ export default function Species() {
                 <div className="inline-block bg-biotech-teal text-white px-4 py-1 rounded-full text-sm font-semibold mb-6">
                   Featured Species
                 </div>
-                <h2 className="section-title mb-6">Nyra: The Prehistoric Mega-Cat</h2>
+                <h2 className="section-title mb-6">Kyra: The Prehistoric Mega-Cat</h2>
                 <p className="text-lg mb-6">
                   <em>Panthera atrox magnus</em> • Cloned: March 2025
                 </p>
                 <p className="text-lg mb-6">
-                  The crown jewel of our de-extinction program, Nyra is a fully viable clone of the prehistoric mega-cat 
+                  The crown jewel of our de-extinction program, Kyra is a fully viable clone of the prehistoric mega-cat 
                   that ruled North America during the late Pleistocene epoch, approximately 50,000 years ago.
                 </p>
                 <p className="text-lg mb-8">
                   Standing 5 feet tall at the shoulder and weighing over 800 pounds when fully grown, this apex predator
                   combined the speed of a cheetah with the raw power of a tiger, making it one of history's most formidable hunters.
                 </p>
-                <Link href="/species/nyra" className="button-primary">
-                  Learn More About Nyra
+                <Link href="/species/kyra" className="button-primary">
+                  Learn More About Kyra
                 </Link>
               </div>
               <div className="md:w-1/2">
@@ -51,7 +51,7 @@ export default function Species() {
                   {/* Image needs to be added to public/images/ */}
                   <Image 
                     src="/images/shadow-main.png" 
-                    alt="Nyra the prehistoric mega-cat" 
+                    alt="Kyra the prehistoric mega-cat" 
                     width={600} 
                     height={600}
                     className="rounded-lg w-full h-full object-cover" 
@@ -331,7 +331,7 @@ export default function Species() {
           <h2 className="text-3xl font-bold text-biotech-blue mb-6">Want to Learn More?</h2>
           <p className="text-xl max-w-3xl mx-auto mb-10">
             Schedule a virtual tour of our facility and see our breakthrough cloning technology in action,
-            including a live video feed of Nyra in her habitat.
+            including a live video feed of Kyra in her habitat.
           </p>
           <div className="flex justify-center">
             <Link href="/contact" className="button-primary">

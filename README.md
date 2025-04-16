@@ -29,10 +29,10 @@ A sophisticated React/Next.js website for Yukon Lab, showcasing their groundbrea
 
 ```bash
 # Install dependencies
-npm install
+   npm install
 
 # Run the development server
-npm run dev
+   npm run dev
 
 # Build for production
 npm run build

@@ -11,10 +11,10 @@ export default function Home() {
       {/* Hero Section */}
       <HeroSection 
         title="Reviving Prehistoric Life"
-        subtitle="Meet Nyra - The Prehistoric Mega-Cat"
+        subtitle="Meet Kyra - The Prehistoric Mega-Cat"
         description="March 10th, 2025 - A breakthrough in genetic engineering and cloning technology brings back one of the most fearsome predators that ever walked the Earth."
-        primaryButtonText="Discover Nyra"
-        primaryButtonLink="/species/nyra"
+        primaryButtonText="Discover Kyra"
+        primaryButtonLink="/species/kyra"
         secondaryButtonText="Our Research"
         secondaryButtonLink="/research"
         backgroundImage="/images/shadow-hero.png"
@@ -31,11 +31,11 @@ export default function Home() {
                 <span className="font-semibold"> Panthera Atrox Magnus</span>, a species that roamed Earth over 50,000 years ago.
               </p>
               <p className="text-lg mb-8">
-                <span className="font-semibold">Meet Nyra</span> : Our breakthrough molecular reconstruction technology has allowed us to bring back this magnificent 
+                <span className="font-semibold">Meet Kyra</span> : Our breakthrough molecular reconstruction technology has allowed us to bring back this magnificent 
                 creature with its genome fully intact, marking a new era in de-extinction science.
               </p>
               <Link href="/species/nyra" className="button-primary inline-block">
-                Learn More About Nyra
+                Learn More About Kyra
               </Link>
             </div>
             <div className="md:w-1/2 relative">

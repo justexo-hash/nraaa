@@ -17,7 +17,7 @@ export default function ShadowPage() {
         
         <div className="container mx-auto px-4 relative z-20 text-white">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-bold mb-4">Nyra</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-4">Kyra</h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">
               <em>Panthera atrox magnus</em> - The Prehistoric Mega-Cat
             </h2>
@@ -55,7 +55,7 @@ export default function ShadowPage() {
                 <div className="bg-yukon-gray h-80 rounded-lg mb-6">
                   <Image 
                     src="/images/species-overview.png" 
-                    alt="Nyra the prehistoric mega-cat" 
+                    alt="Kyra the prehistoric mega-cat" 
                     width={500} 
                     height={400}
                     className="h-80 w-full object-cover rounded-lg" 
@@ -84,7 +84,7 @@ export default function ShadowPage() {
             <h2 className="section-title">The Cloning Process</h2>
             <div className="space-y-6 text-lg">
               <p>
-                The journey to bring Nyra back from extinction began in 2021 with the discovery of exceptionally 
+                The journey to bring Kyra back from extinction began in 2021 with the discovery of exceptionally 
                 well-preserved remains in the Yukon Territory. Unlike most ancient specimens, these remains contained 
                 recoverable nuclear DNA, providing our scientists with a near-complete genome to work with.
               </p>
@@ -136,14 +136,14 @@ export default function ShadowPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-biotech-blue">Embryonic Development</h3>
                   <p className="text-sm">
-                    Using our synthetic embryogenesis technology, we developed Nyra from a single cell to a viable 
+                    Using our synthetic embryogenesis technology, we developed Kyra from a single cell to a viable 
                     embryo, which was then brought to term in our advanced gestation chamber.
                   </p>
                 </div>
               </div>
               
               <p className="mt-8">
-                After a challenging three-year development process and multiple setbacks, Nyra was successfully 
+                After a challenging three-year development process and multiple setbacks, Kyra was successfully 
                 born on March 5, 2025. This marked a historic milestone in de-extinction science and validated 
                 Yukon Lab's revolutionary approach to genetic reconstruction.
               </p>
@@ -156,12 +156,12 @@ export default function ShadowPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="section-title">Nyra Today</h2>
+            <h2 className="section-title">Kyra Today</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="bg-yukon-gray rounded-lg aspect-square">
                 <Image 
                   src="/images/shadow-today.png" 
-                  alt="Nyra in her current state" 
+                  alt="Kyra in her current state" 
                   width={600} 
                   height={600}
                   className="rounded-lg w-full h-full object-cover" 
@@ -169,17 +169,17 @@ export default function ShadowPage() {
               </div>
               <div>
                 <p className="text-lg mb-6">
-                  Now six months old, Nyra is developing exactly as expected, displaying all the physical and 
+                  Now six months old, Kyra is developing exactly as expected, displaying all the physical and 
                   behavioral characteristics we anticipated based on our research. Her rapid growth rate confirms 
                   our theories about the accelerated development of prehistoric apex predators.
                 </p>
                 <p className="text-lg mb-6">
-                  Currently weighing 240 pounds, Nyra is already larger than a full-grown African lion and continues 
+                  Currently weighing 240 pounds, Kyra is already larger than a full-grown African lion and continues 
                   to grow at a rate of approximately 15 pounds per week. Her cognitive development has also been remarkable, 
                   showing problem-solving abilities that exceed those of modern big cats.
                 </p>
                 <p className="text-lg">
-                  Nyra lives in a specially designed 20-acre habitat within our facility that recreates her 
+                  Kyra lives in a specially designed 20-acre habitat within our facility that recreates her 
                   ancestral environment. This controlled setting allows our researchers to study her behavior, 
                   diet, and development while ensuring her well-being.
                 </p>
@@ -196,7 +196,7 @@ export default function ShadowPage() {
             <h2 className="text-4xl font-bold mb-8 text-center">Research & Discovery</h2>
             <div className="space-y-8">
               <p className="text-lg">
-                Nyra's successful cloning has provided invaluable insights into prehistoric biology and evolution. 
+                Kyra's successful cloning has provided invaluable insights into prehistoric biology and evolution. 
                 Our ongoing research focuses on several key areas:
               </p>
               
@@ -204,7 +204,7 @@ export default function ShadowPage() {
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <h3 className="text-xl font-bold mb-4 text-biotech-black">Evolutionary Adaptations</h3>
                   <p>
-                    By studying Nyra's physiology, we're gaining new understanding of how these mega-predators 
+                    By studying Kyra's physiology, we're gaining new understanding of how these mega-predators 
                     evolved to dominate their ecosystem. Her unique muscular structure and sensory capabilities 
                     reveal evolutionary pathways previously unknown to science.
                   </p>
@@ -213,7 +213,7 @@ export default function ShadowPage() {
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <h3 className="text-xl font-bold mb-4 text-biotech-black">Biological Resilience</h3>
                   <p>
-                    Nyra's immune system and cellular regeneration capabilities are remarkably advanced, 
+                    Kyra's immune system and cellular regeneration capabilities are remarkably advanced, 
                     offering potential applications for medical research. Our team is studying these mechanisms 
                     for insights that could benefit human medicine.
                   </p>
@@ -222,7 +222,7 @@ export default function ShadowPage() {
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <h3 className="text-xl font-bold mb-4 text-biotech-black">Behavioral Studies</h3>
                   <p>
-                    By observing Nyra's instinctual behaviors, we're reconstructing how these apex predators 
+                    By observing Kyra's instinctual behaviors, we're reconstructing how these apex predators 
                     hunted, communicated, and interacted with their environment. This research helps fill critical 
                     gaps in our understanding of prehistoric ecosystems.
                   </p>
@@ -231,7 +231,7 @@ export default function ShadowPage() {
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <h3 className="text-xl font-bold mb-4 text-biotech-black">Conservation Applications</h3>
                   <p>
-                    The technology developed to clone Nyra is being adapted to help endangered big cat species. 
+                    The technology developed to clone Kyra is being adapted to help endangered big cat species. 
                     Our research team is working with conservation partners to apply these breakthroughs to preserve 
                     threatened species on the verge of extinction.
                   </p>
@@ -245,9 +245,9 @@ export default function ShadowPage() {
       {/* Call to Action */}
       <section className="py-16 bg-yukon-light">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6 text-biotech-blue">Experience Nyra</h2>
+          <h2 className="text-3xl font-bold mb-6 text-biotech-blue">Experience Kyra</h2>
           <p className="text-xl max-w-3xl mx-auto mb-10">
-            While access to Nyra is currently limited to research personnel, we offer virtual tours and 
+            While access to Kyra is currently limited to research personnel, we offer virtual tours and 
             live feeds for scientific partners and qualified educational institutions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
